@@ -4,7 +4,7 @@
 
 layout: default
 ---
-Short description of the project, including reasons, features, and framing.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Short description of the project, including reasons, features, and framing.. 
 
 While our project is still in development, we have two samples of the types of undergraduate- and general audience-focused writing that we intend to highlight. We also encourage submissions in other formats, including short documentary videos, interviews and oral histories, or interactive projects that take advantage of the opportunities of online delivery.
 
