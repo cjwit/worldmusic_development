@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   teaching and learning ethnomusicology and musicology.
 timezone: America/New_York
 baseurl: "/worldmusic" # the subpath of your site, e.g. /blog
-url: "http://cjwit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cjwit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
