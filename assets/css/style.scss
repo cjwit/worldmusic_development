@@ -95,18 +95,6 @@ input {
 }
 
 // for collections
-.drop-down {
-  font-size: .6em;
-  color: $body-text-color;
-  margin: 4px;
-  padding: 2px 5px 2px 5px;
-//  border: 1px solid $grey-color;
-//  border-radius: 3px;
-}
-
-.collection {
-  border-top: 1px solid $border-color;
-}
 
 .description {
   font-size: .8em;
@@ -114,19 +102,13 @@ input {
   padding-left: 36px;
 }
 
-.collection-info {
-  padding-left: 24px;
-  display: none;
-  color: $body-text-color;
-}
-
 .collection-indent {
   list-style: none;
 }
 
 .collection-indent>li {
-  padding-left: 36px;
+  border-top: 1px solid $border-color;
   margin-top: 24px;
   margin-bottom: 24px;
-  text-indent: -24px;
+  text-indent: 0px;
 }
