@@ -8,5 +8,4 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 
 ## Next up
 
-* btn + btn gets a margin left, why?
-* activate filtering
+* btn does not change when using active
