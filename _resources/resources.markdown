@@ -190,38 +190,81 @@ resources:
     description: "A podcast about the Silk Road Ensemble and cross-cultural collaborations. (I use it in conversation with analysis of the production of the Graceland album drawing on Meintjes’ work)"
     tags: 
       - "Collaboration"
+  - type: "url"
+    title: "Music and Social Justice Resources Project"
+    author: "The Society for Ethnomusicology"
+    date: 2015
+    link: "https://www.ethnomusicology.org/page/Resources_Social"
+    description: "A curated listing of online and offline resources related to music and social justice, protest, refugee issues, sustainability, and similar topics"
+    tags:
+      - "Activism"
+      - "Race"
+      - "Public Musicology"
+      - "Politics"
+      - "Immigration"
+      - "Sustainability"
+      - "Teaching"
+  - type: "url"
+    title: "Rhiannon Giddens' Keynote Address at IBMA Conference: Community and Connection"
+    author: "Rhiannon Giddens"
+    date: 2017
+    link: "https://www.nonesuch.com/journal/rhiannon-giddens-keynote-address-ibma-conference-community-connection-2017-10-03"
+    description: "The prominent singer, songwriter, and banjo player Rhiannon Giddens shares the relationship between race, the banjo, the music industry, and old time and bluegrass music"
+    tags:
+      - "Race"
+      - "African Diaspora"
+      - "Musical Instruments"
+      - "United States"
+      - "Historical Ethnomusicology"
+  - type: "article"
+    title: "Are Men Singing Higher in Pop Music?"
+    author: "Matt Daniels"
+    date: 2019
+    publication: "The Pudding"
+    link: "https://pudding.cool/2019/08/register/"
+    description: "This interactive article uses graphs to describe contour and style in popular music"
+    tags:
+      - "Musical Terms"
+      - "Popular Music"
+      - "Media"
+  - type: "article"
+    title: "Who is the Biggest Pop Star?"
+    author: "The Pudding Team"
+    date: 2019
+    publication: "The Pudding"
+    description: "A data based article that problematizes a simple understanding of what constitutes 'popular' in 'popular music'" 
+    link: "https://pudding.cool/2019/03/pop-music/"
+    tags:
+      - "Popular Music"
+      - "Media"
+  - type: "article"
+    title: "Crowdsourcing the Definition of \"Punk\""
+    author: "Matt Daniels"
+    publication: "The Pudding"
+    date: 2017
+    link: "https://pudding.cool/2017/03/punk/"
+    description: "This artucle uses the example of punk to show how \"genres exist entirely in our heads\""
+    tags:
+      - "Popular Music"
+      - "Musical Terms"
+      - "Media"
+  - type: "url"
+    title: "Visualizing hip-hop melodies"
+    author: "Ethan Hein"
+    date: 2016
+    description: "Using visualiations to show pitch, this article demonstrates the relationship between melody and rhythm as well as the importance of each in style"
+    link: "https://www.ethanhein.com/wp/2016/visualizing-hip-hop-melodies/"
+    tags:
+      - "Musical Terms"
+      - "Popular Music"
+      - "African Diaspora"
+  - type: "url"
+    title: "Sekuru's Stories"
+    author: "Jennifer Kyker"
+    date: 2019
+    link: "https://sekuru.org/home/"
+    description: "A digitical humanities project focusing on southern African musical instruments and traditions"
+    tags:
+      - "Musical Instruments"
+      - "Africa"
 ---
-
-Cooley, Timothy J. et al. (2008): "Virtual Fieldwork. Three Case Studies." In: Gregory F. Barz und Timothy J. Cooley (eds.): Shadows in the Field. New Perspectives for Fieldwork in Ethnomusicology, 90–107.
-
-Wood, Abigail. 2008. "E-Fieldwork: A Paradigm for the 21st century?" The New (Ethno)musicologies,edited by Henry Stobart. Scarecrow press, 170-187.
-
-SEM StudentNews, special issue on Digital Ethnomusicologies and Online Bodies: Education and Social Media. Student Concerns Committee of the Society for Ethnomusicology. Volume 6 spring/summer 2013.  
-
-Liz Przybylski. Hybrid Ethnography: Online, Offline, and In Between will be published by SAGE shortly: The methodology addresses research in a fieldsite that integrates both online and offline components. This does respond to several of the questions you raise—such as ethics and techniques in online ethnography. Of particular relevance for researchers who are transitioning to a digital fieldsite after partially completing research primarily offline, the book offers ways to integrate research conducted face-to-face, online, and in mediated spaces that span the two. I am happy to answer questions about the methodology, particularly between now and when the book is released; you can reach me at liz.przybylski@ucr.edu or 815-793-4535.
-
-Doing Fieldwork in a Pandemic. Deborah Lupton, crowdsourced document, and recent webinar slides are also available on her blog.
-
-Digital Ethnography: Principles and Practice, ed. Sarah Pink et. al. (2016)
-
-The Routledge Companion to Digital Ethnography, ed. Larissa Hjorth et. al. (2016)
-
-Singing the Congregation: How Contemporary Worship Music Forms Evangelical Community. Monique Ingalls incorporates both in-person and virtual fieldwork for much of her book, but what you're looking for is probably most concentrated in Chapter 5 (Worship on Screen).
-
-Theory and Method in Historical Ethnomusicology (edited by Jonathan McCollum and David G. Herbert). The discussions in Chapter 2 about music as data and the emerging digital humanities may be helpful. This collection also has some very overt discussions about ethics in research, which are applicable to traditional fieldwork methods or virtual.
-
-Ethnography and Virtual Worlds: A Handbook of Method by Tom Boellstorff, Bonnie Nardi, Celia Pearce, and T.L. Taylor. Even though it was published in 2012, it holds up as a great primer for anyone interested in ethnographic methods for analyzing online cultures
-
-Blending online and in-person ethnographic methods. Kiri Miller’s Playable Bodies (2017) and Playing Along (2012) come to mind, as does Trevor Harvey’s article “Virtual Worlds: An Ethnomusicological Perspective” in the Oxford Handbook of Virtuality. Books like Suk-Young Kim’s K-Pop Live and Katherine Meizel’s Idolizedalso offer unique approaches to constructing the field, taking into account media industries, people, and various popular culture discourses
-
-Umi Hsu, open-access article, "Digital Ethnography Toward Augmented Empiricism: A New Methodological Framework": http://journalofdigitalhumanities.org/3-1/digital-ethnography-toward-augmented-empiricism-by-wendy-hsu/
-
-Networked creativity : ethnographic perspectives on chipmusic  (2015, by Marilou Polymeropoulou)  
-
-https://blogs.loc.gov/folklife/2020/05/on-remote-fieldwork-and-shifting-gears/ - The American Folklife Center recently initiated a series of Folklife Today blogs on remote fieldwork. These will explore both technical resources and the more philosophical aspects of working with interviewees and communities in this disorientating time. My colleague Michelle Stefano did a really nice job on the opening blog and I'm sending along a link to it both FYI and also because it might be a thought-provoking piece to share with students. Best wishes, Nancy Groce
-
-## Autoethnography (not included here)
-
-autoethnography and designing research "at home" (wherever that may be!). The chapter by Christopher Hale in The Oxford Handbook of Music and World Christianities (edited by Suzel Ana Reily and Jonathan M. Dueck)
-
-Jungwon Kim's dissertation (UC Riverside) on K-pop fandom incorporates aspects of her own experience as a K-pop fan before and into her choice to go into ethnomusicology; her references may be helpful in finding additional sources for autoethnography
