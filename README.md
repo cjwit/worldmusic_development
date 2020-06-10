@@ -8,4 +8,4 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 
 ## Next up
 
-* btn does not change when using active
+* decide what to do with tags on mobile
