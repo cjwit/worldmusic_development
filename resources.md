@@ -48,6 +48,7 @@ One of our goals is to provide links to some of the many open and online resourc
 var tagElements = document.getElementsByClassName("tag");
 var tagList = document.getElementById("tagList");
 var tags = [];
+
 for (i = 0; i < tagElements.length; i++) {
     if (tags.indexOf(tagElements[i].innerText) < 0) {
         tags.push(tagElements[i].innerText);
@@ -67,12 +68,46 @@ for (i = 0; i < tags.length; i++) {
 }
 
 // set events for filter list
+var active = [];
+
 var filters = document.getElementsByClassName("filter");
+var items = document.getElementsByClassName("item");
 for (i = 0; i < filters.length; i++) {
     let e = filters[i];
     e.addEventListener("click", function() {
-        e.classList.toggle("active");
-        console.log("clicked", e.innerText, e.classList);
+        // change button status and create list of active tags
+        if (e.classList.contains("active")) {
+            e.classList.remove("active");
+            active.splice(active.indexOf(e.innerText), 1);
+        }
+        else {
+            e.classList.add("active");
+            active.push(e.innerText);
+        }
+
+        // hide and show items
+        if (active.length == 0) {
+            for (j = 0; j < items.length; j++) {
+                items[j].style.display = "block";
+            }
+        }
+        else {
+            for (j = 0; j < items.length; j++) {
+                let itemTags = items[j].getElementsByTagName("span");
+                let show = true;
+                for (k = 0; k < itemTags.length; k++) {
+                    if (active.indexOf(itemTags[k].innerText) < 0) {
+                        show = false;
+                    }
+                }
+                if (show) {
+                    items[j].style.display = "block";
+                }
+                else {
+                    items[j].style.display = "none";
+                }
+            }
+        }
     })
 }
 </script>
