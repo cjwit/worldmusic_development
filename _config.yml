@@ -17,13 +17,16 @@ title: World Music Textbook
 author: Maintained by Christopher Witulski
 email: chris.witulski@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The World Music Textbook is an online and open resource for
-  teaching and learning ethnomusicology and musicology.
+  An online and open resource for
+  teaching and learning ethnomusicology and musicology
 timezone: America/New_York
-baseurl: /worldmusic # the subpath of your site, e.g. /blog
-url: https://cjwit.github.io # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: / # the subpath of your site, e.g. /blog
+url: https://cjwit.github.io/worldmusic # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
+# google_analytics: UA-80548224-5
+collections:
+  - resources
 
 # Build settings
 markdown: kramdown

@@ -8,9 +8,10 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
+        gtag('config', '{{ site.google_analytics }}', { 'anonymize_ip': true });
       </script>
     {% endif %}
+    <script type="text/javascript" src="/assets/jquery-3.2.0.min.js"></script>
     <meta charset="UTF-8">
 
 {% seo %}
@@ -24,18 +25,29 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="/" class="btn">Call for contributions</a>
-      {% endif %}
+      <a href="/" class="btn">Home</a>
+      <a href="/call" class="btn">Call for contributions</a>
+      <a href="/resources" class="btn">Other online resources</a>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        <span class="site-footer-credits">This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution — Non-Commercial — No Derivatives 4.0 International License</a>.<br />
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a></span>
+        <p>
+          <span class="site-footer-owner">Worldmusictextbook.org is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> at <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>.</span>
+        </p>
+        <p>
+          <span class="site-footer-credits">
+            This page uses Google Analytics to measure usage, but anonymizes IP addresses and does not collect or share personally identifying information.
+          </span>
+        </p>
+        <p>
+          <span class="site-footer-credits">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0; float:left;margin:0.5rem;" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+            This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution — Non-Commercial — No Derivatives 4.0 International License</a>.<br />
+          </span>
+        </p>
       </footer>
     </main>
   </body>
