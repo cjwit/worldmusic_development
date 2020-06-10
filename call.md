@@ -1,6 +1,7 @@
 ---
-layout: essay
+layout: default
 title: Call for Contributions
+description: Contribute to an open and accessible resource
 permalink: /call/
 ---
 
