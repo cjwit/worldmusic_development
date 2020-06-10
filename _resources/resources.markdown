@@ -161,7 +161,7 @@ resources:
     tags: 
       - "Africa"
       - "Latin America"
-      - "African diaspora"
+      - "African Diaspora"
       - "Popular Music"
   - type: "url"
     title: "Tito Puente: ‘El Rey’"
