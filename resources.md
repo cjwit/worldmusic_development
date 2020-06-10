@@ -25,22 +25,54 @@ One of our goals is to provide links to some of the many open and online resourc
 
 ## Filter by tag
 
-<div>
-    {% assign sorted-tags = (page.tags | sort) %}
-    {% for tag in sorted-tags %}
-        <span id="{{ tag }}" class="tag btn">{{ tag }}</span>
-    {% endfor %}
-</div>
+<div id = "tagList"></div>
 
 ## Resources
 
-<div>
+<div id = "itemList">
     {% for bib in site.resources %}
         {% assign sorted-pubs = (bib.resources | sort:'date' | reverse) %}
         {% for pub in sorted-pubs %}
-            {% include item.html pub=pub %}
+            <div class = "item">
+                {% include item.html pub=pub %}
+            </div>
         {% endfor %}
     {% endfor %}
 </div>
 
 [email]: mailto:cwituls@bgsu.edu
+
+<script>
+
+// collect tags for the filter list
+var tagElements = document.getElementsByClassName("tag");
+var tagList = document.getElementById("tagList");
+var tags = [];
+for (i = 0; i < tagElements.length; i++) {
+    if (tags.indexOf(tagElements[i].innerText) < 0) {
+        tags.push(tagElements[i].innerText);
+    }
+}
+
+// create buttons for the filter list
+tags.sort();
+for (i = 0; i < tags.length; i++) {
+    var button = document.createElement("span");
+    var text = document.createTextNode(tags[i]);
+    button.appendChild(text);
+    button.classList.add("tag");
+    button.classList.add("filter");
+    button.classList.add("btn");
+    tagList.appendChild(button);
+}
+
+// set events for filter list
+var filters = document.getElementsByClassName("filter");
+for (i = 0; i < filters.length; i++) {
+    let e = filters[i];
+    e.addEventListener("click", function() {
+        e.classList.toggle("active");
+        console.log("clicked", e.innerText, e.classList);
+    })
+}
+</script>

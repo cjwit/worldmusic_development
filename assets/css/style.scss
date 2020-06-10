@@ -1,9 +1,31 @@
 ---
 ---
 
-@import "jekyll-theme-cayman";
+// Breakpoints
+$large-breakpoint: 64em !default;
+$medium-breakpoint: 42em !default;
 
-main .btn {
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #159957 !default;
+$header-bg-color-secondary: #155799 !default;
+
+// Text
+$section-headings-color: #159957 !default;
+$body-text-color: #606c71 !default;
+$body-link-color: #1e6bb8 !default;
+$blockquote-text-color: #819198 !default;
+
+// Code
+$code-bg-color: #f3f6fa !default;
+$code-text-color: #567482 !default;
+
+// Borders
+$border-color: #dce6f0 !default;
+$table-border-color: #e9ebec !default;
+$hr-border-color: #eff0f1 !default;
+
+.btn {
   color: $section-headings-color;
   background-color: white;
   border-color: $section-headings-color;
@@ -16,11 +38,41 @@ main .btn {
   }
 }
 
-main .tag {
+// for items
+.tag {
   font-size: 0.8rem;
   padding: 0.3rem;
 }
 
+#tagList .tag, .item .tag {
+  margin: 5px;
+}
+
+.item {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#itemList div {
+  border-top: 1px solid $border-color;
+}
+
+#itemList div:first-child {
+  border-top: 0px;
+}
+
+.active {
+  color: white;
+  background-color: $section-headings-color;
+  border-color: $section-headings-color;
+}
+
+.active:hover {
+  background-color: $section-headings-color;
+  border-color: $border-color;
+}
+
+// forms
 textarea {
   width: 100%;
   display: inline-block;
@@ -76,6 +128,7 @@ input {
   }
 }
 
+// for item formatting
 .page-title {
 }
 
@@ -95,8 +148,6 @@ input {
   padding-left: 1.5rem;
   text-indent: -1.5rem;
 }
-
-// for collections
 
 .description {
   font-size: .8em;
