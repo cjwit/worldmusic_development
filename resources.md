@@ -75,6 +75,7 @@ var items = document.getElementsByClassName("item");
 for (i = 0; i < filters.length; i++) {
     let e = filters[i];
     e.addEventListener("click", function() {
+
         // change button status and create list of active tags
         if (e.classList.contains("active")) {
             e.classList.remove("active");
@@ -92,15 +93,19 @@ for (i = 0; i < filters.length; i++) {
             }
         }
         else {
+
+            // get item tags and check that each one is active
             for (j = 0; j < items.length; j++) {
                 let itemTags = items[j].getElementsByTagName("span");
-                let show = true;
+                let matches = 0;
                 for (k = 0; k < itemTags.length; k++) {
-                    if (active.indexOf(itemTags[k].innerText) < 0) {
-                        show = false;
+                    if (active.indexOf(itemTags[k].innerText) >= 0) {
+                        matches++;
                     }
                 }
-                if (show) {
+
+                // show or hide
+                if (matches >= active.length) {
                     items[j].style.display = "block";
                 }
                 else {

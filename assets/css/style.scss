@@ -32,6 +32,12 @@
   display: block;
 }
 
+.item .tag:hover {
+  color: $section-headings-color;
+  background-color: white;
+  border-color: $section-headings-color;
+}
+
 #itemList div {
   border-top: 1px solid $border-color;
 }
