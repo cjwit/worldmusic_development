@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: essay
 title: Resources
 description: Other useful resources from across the internet
 permalink: /resources/
