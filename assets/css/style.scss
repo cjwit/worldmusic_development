@@ -74,6 +74,12 @@ main .btn {
 
 #tagList .tag, .item .tag {
   margin: 5px;
+  @include small {
+    display: inline-block;
+    width: unset;
+    // padding: 0.75rem;
+    // font-size: 0.9rem;
+  }
 }
 
 .item {
