@@ -54,8 +54,8 @@ Examples of themes include (but are not limited to):
 
 ## Submission information, ownership, and licensing
 
-Please contact the editors at [editors@worldmusictextbook.org](mailto:editors@worldmusictextbook.org) with any questions about the *World Music Textbook*, whether a potential contribution is suitable, or how your submission can make use of this project's online delivery.
+Please contact the editors at [{{ site.email }}](mailto:{{ site.email }}) with any questions about the *World Music Textbook*, whether a potential contribution is suitable, or how your submission can make use of this project's online delivery.
 
-Submissions should be roughly in line with the word counts listed above, or of a similar scope (a documentary short, for example, instead of a feature length film). Submit writing via email in a standard rich text format (RTF, Microsoft Word, or similar) and send any attachments (images, videos, etc.) as separate files along with a document that includes captions. [Email the editors](mailto:editors@worldmusictextbook.org) with any questions or for information about submitting code for interactive contributions.
+Submissions should be roughly in line with the word counts listed above, or of a similar scope (a documentary short, for example, instead of a feature length film). Submit writing via email in a standard rich text format (RTF, Microsoft Word, or similar) and send any attachments (images, videos, etc.) as separate files along with a document that includes captions. [Email the editors](mailto:{{ site.email }}) with any questions or for information about submitting code for interactive contributions.
 
 This project as a whole is licensed under a Creative Commons Attribution, Non-Commercial, No Derivatives 4.0 International License. This is permissive in use (the work published here is free and open), but it has important restrictions. Anyone using the material published here must attribute the work to the original author and cannot adapt materials or use them for commercial purposes. See [CC-BY-NC-ND](http://creativecommons.org/licenses/by-nc-nd/4.0/) for more information.

@@ -9,9 +9,9 @@ One of our goals is to provide links to some of the many open and online resourc
 
 Items labeled "Teaching" and some others (like "Virtual Fieldwork") are primarily intended for instructors. Others are resources that people have used as assigned reading/watching/listening in their undergraduate classrooms.
 
-If you would like to add any resources or suggest a bibliography, please email [Christopher Witulski][email].
+If you would like to add any resources or suggest a bibliography, please email [the editors](mailto:{{ site.email }}).
 
-## Filter
+## Filter by Tag
 
 <div id = "tagList"></div>
 
@@ -27,8 +27,6 @@ If you would like to add any resources or suggest a bibliography, please email [
         {% endfor %}
     {% endfor %}
 </div>
-
-[email]: mailto:cwituls@bgsu.edu
 
 <script>
 

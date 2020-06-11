@@ -10,7 +10,7 @@ This project’s vision is the creation of an adaptable free textbook. Its conte
 
 While our project is still in development, we have a sample of the type of undergraduate- and general audience-focused writing that we intend to highlight. We also encourage submissions in other formats, including short documentary videos, interviews and oral histories, or interactive projects that take advantage of the opportunities of online delivery.
 
-The *World Music Textbook* will also include annotated collections of other resources that are available across the web. If you manage or know of a good resource, please contact the editors at [editors@worldmusictextbook.org](mailto:editors@worldmusictextbook.org) for consideration.
+The *World Music Textbook* will also include annotated collections of other resources that are available across the web. If you manage or know of a good resource, please contact the editors at [{{ site.email }}](mailto:{{ site.email }}) for consideration.
 
 <center>
 
@@ -23,7 +23,7 @@ The *World Music Textbook* will also include annotated collections of other reso
 
 ## Editorial team
 
-If you have any questions about this project, using the resources, the submission or review process, or would like to learn how to be involved, please contact the editors at [editors@worldmusictextbook.org](mailto:editors@worldmusictextbook.org).
+If you have any questions about this project, using the resources, the submission or review process, or would like to learn how to be involved, please contact the editors at [{{ site.email }}](mailto:{{ site.email }}).
 
 The World Music Textbook editors are:
 
