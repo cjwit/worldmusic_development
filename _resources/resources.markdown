@@ -296,7 +296,7 @@ resources:
      - "Interactive"
   - type: "url"
     title: "Clara Rockmore’s 105th Birthday"
-    author: "Google Doodles"
+    author: "Google Doodle"
     date: 2016
     link: "https://www.google.com/doodles/clara-rockmores-105th-birthday"
     description: "An interactive theramin celebrating Clara Rockmore, \"the instrument's most well-known performer\"."
