@@ -323,4 +323,14 @@ resources:
      - "Musical Instruments"
      - "Interactive"
      - "Africa"
+  - type: "url"
+    title: "Learning Music"
+    author: "Abelton"
+    date: 2017
+    link: "https://learningmusic.ableton.com"
+    description: "An in-browswer interactive series of lessons on rhythm, pitch, and similar concepts that includes a playground. Built by the makers of Abelton Live."
+    tags:
+     - "Musical Instruments"
+     - "Musical Terms"
+     - "Interactive"
 ---
