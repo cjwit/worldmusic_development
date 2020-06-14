@@ -183,7 +183,7 @@ resources:
       - "Ethnomusicology"
       - "Indigeneity"
   - type: "url"
-    title: “The Edge Effect”
+    title: "The Edge Effect"
     author: "Shankar Vedantam"
     date: 2018
     link: "https://www.npr.org/2018/07/02/625426015/the-edge-effect"
@@ -267,4 +267,60 @@ resources:
     tags:
       - "Musical Instruments"
       - "Africa"
+  - type: "url"
+    title: "Pentatonic Scales"
+    author: "Imaginary: Open Mathmatics"
+    date: 2020
+    link: "https://imaginary.org/program/pentatonic-scales"
+    description: "Move through the “Space of Pentatonic Scales” and create your own impressionistic style music by playing pieces by classical composers with only five notes."
+    tags:
+     - "Musical Terms"
+     - "Interactive"
+  - type: "url"
+    title: "Scale Lab"
+    author: "Imaginary: Open Mathmatics"
+    date: 2020
+    link: "https://imaginary.org/program/scale-lab"
+    description: "Scale Lab allows you to explore, measure, create and modify both individual sounds and musical scales. This exhibit covers the fundamentals of sound, perception of consonance and dissonance and the creation of scales from single tones."
+    tags:
+     - "Musical Terms"
+     - "Interactive"
+  - type: "url"
+    title: "Pink Trombone"
+    author: "Imaginary: Open Mathmatics"
+    date: 2020
+    link: "https://imaginary.org/program/pink-trombone"
+    description: "Pink trombone is a model of the human vocal tract that synthesizes human voice from scratch, controllable with your fingers."
+    tags:
+     - "Musical Terms"
+     - "Interactive"
+  - type: "url"
+    title: "Clara Rockmore’s 105th Birthday"
+    author: "Google Doodles"
+    date: 2016
+    link: "https://www.google.com/doodles/clara-rockmores-105th-birthday"
+    description: "An interactive theramin celebrating Clara Rockmore, \"the instrument's most well-known performer\"."
+    tags:
+     - "Musical Instruments"
+     - "Interactive"
+  - type: "url"
+    title: "44th Anniversary of the Birth of Hip Hop"
+    author: "Google Doodle"
+    date: 2017
+    link: "https://www.google.com/doodles/44th-anniversary-of-the-birth-of-hip-hop"
+    description: "Interactive turntables on which users can mix samples from legendary tracks, and a serving of Hip Hop history - with an emphasis on its founding pioneers."
+    tags:
+     - "Musical Instruments"
+     - "Interactive"
+     - "Popular Music"
+  - type: "url"
+    title: "Celebrating Mbira"
+    author: "Google Doodle"
+    date: 2020
+    link: "https://www.google.com/doodles/celebrating-mbira"
+    description: "Try your own hand at this instrument that has been played for over 1,000 years, while experiencing a story as told through the lens of a Zimbabwean girl who learns to play the mbira. This post generated some discussion in social media, including <a href =\"https://www.facebook.com/groups/1816866991763616/?post_id=2967179153399055\" target=\"_blank\">this post</a> with some context on its creation and <a href = \"https://www.facebook.com/groups/161177417731635/?post_id=889305658252137\" target=\"_blank\">this one</a> that discusses power and race in ethnomusicology. Since these are social media posts, they may not be available to all users."
+    tags: 
+     - "Musical Instruments"
+     - "Interactive"
+     - "Africa"
 ---
