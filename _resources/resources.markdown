@@ -318,7 +318,7 @@ resources:
     author: "Google Doodle"
     date: 2020
     link: "https://www.google.com/doodles/celebrating-mbira"
-    description: "Try your own hand at this instrument that has been played for over 1,000 years, while experiencing a story as told through the lens of a Zimbabwean girl who learns to play the mbira. This post generated some discussion in social media, including <a href =\"https://www.facebook.com/groups/1816866991763616/?post_id=2967179153399055\" target=\"_blank\">this post</a> with some context on its creation and <a href = \"https://www.facebook.com/groups/161177417731635/?post_id=889305658252137\" target=\"_blank\">this one</a> that discusses power and race in ethnomusicology. Since these are social media posts, they may not be available to all users."
+    description: "Try your own hand at this instrument that has been played for over 1,000 years, while experiencing a story as told through the lens of a Zimbabwean girl who learns to play the mbira. This post generated some discussion in social media, including <a href =\"https://www.facebook.com/groups/1816866991763616/?post_id=2967179153399055\" target=\"_blank\">this post</a> with some context on its creation and <a href = \"https://www.facebook.com/Tanyaradzwa.T/posts/10222960451183617\" target=\"_blank\">this one</a> that discusses power and race in ethnomusicology. Since these are social media posts, they may not be available to all users."
     tags: 
      - "Musical Instruments"
      - "Interactive"
