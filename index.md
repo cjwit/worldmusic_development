@@ -43,7 +43,7 @@ The current World Music Textbook editorial board:
 With our aim to provide a collaborative and open free resource for instructors and students alike, we invite you to share any ideas about what you wish you had available for your students.
 
 <form
-  action = "https://formspree.io/chris.witulski@gmail.com"
+  action = "https://formspree.io/{{ site.email }}"
   method="POST">
 
   <textarea name="suggestions" rows="4" placeholder = "I have some thoughts"></textarea>
