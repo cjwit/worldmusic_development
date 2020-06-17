@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 ---
 The *World Music Textbook* is a new collaborative effort to create a free and broadly accessible resource for educators, students, and researchers alike. Its open collections of scholarly, peer-reviewed writing and multimedia materials will focus on increasing access to diverse voices, writing styles, and audiences, all with undergraduate students and a general readership in mind.
