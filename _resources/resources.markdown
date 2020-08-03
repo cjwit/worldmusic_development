@@ -190,6 +190,7 @@ resources:
     description: "A podcast about the Silk Road Ensemble and cross-cultural collaborations. (I use it in conversation with analysis of the production of the Graceland album drawing on Meintjes’ work)"
     tags: 
       - "Collaboration"
+      - "Global"
   - type: "url"
     title: "Music and Social Justice Resources Project"
     author: "The Society for Ethnomusicology"
@@ -204,6 +205,7 @@ resources:
       - "Immigration"
       - "Sustainability"
       - "Teaching"
+      - "Global"
   - type: "url"
     title: "Rhiannon Giddens' Keynote Address at IBMA Conference: Community and Connection"
     author: "Rhiannon Giddens"
@@ -333,4 +335,23 @@ resources:
      - "Musical Instruments"
      - "Musical Terms"
      - "Interactive"
+  - type: "url"
+    title: "The Global Jukebox"
+    author: "Association for Cultural Equity"
+    date: 2017
+    link: "https://theglobaljukebox.org/"
+    description: "From the site: The Global Jukebox explores connections between families of expressive style. One can travel the world of song, dance and language through the Wheel Chart and the Map. Thousands of examples of the world’s music, dance and other expressive behavior are available here."
+    tags:
+     - "Interactive"
+     - "Global"
+  - type: "url"
+    title: "Radio Garden"
+    author: "Radio Garden"
+    date: 2016
+    link: "http://radio.garden"
+    description: "An interactive website to listen to live, streaming radio stations from across the world."
+    tags:
+      - "Interactive"
+      - "Global"
+      - "Media"
 ---
