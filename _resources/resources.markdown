@@ -354,4 +354,14 @@ resources:
       - "Interactive"
       - "Global"
       - "Media"
+  - type: "url"
+    title: "American Clave/Ragtime Country"
+    author: "Wayne Marshall"
+    date: 2020
+    link: "http://wayneandwax.com/?page_id=9315&fbclid=IwAR02xUOhjtC4fw-E6LOTQzcakI4o2IgKlkHmodg5FAbcr3X7qLmz-wS9FXk"
+    description: "An accompaniment to an article that appeared in the <em>Journal of Popular Music Studies</em> that provides examples of rhythmic tropes across American popular music genres"
+    tags:
+      - "Musical Terms"
+      - "Popular Music"
+      - "United States"
 ---
