@@ -265,7 +265,7 @@ resources:
     author: "Jennifer Kyker"
     date: 2019
     link: "https://sekuru.org/home/"
-    description: "A digitical humanities project focusing on southern African musical instruments and traditions"
+    description: "A digital humanities project focusing on southern African musical instruments and traditions"
     tags:
       - "Musical Instruments"
       - "Africa"
