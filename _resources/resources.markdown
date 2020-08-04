@@ -245,7 +245,7 @@ resources:
     publication: "The Pudding"
     date: 2017
     link: "https://pudding.cool/2017/03/punk/"
-    description: "This artucle uses the example of punk to show how \"genres exist entirely in our heads\""
+    description: "This article uses the example of punk to show how \"genres exist entirely in our heads\""
     tags:
       - "Popular Music"
       - "Musical Terms"
@@ -254,7 +254,7 @@ resources:
     title: "Visualizing hip-hop melodies"
     author: "Ethan Hein"
     date: 2016
-    description: "Using visualiations to show pitch, this article demonstrates the relationship between melody and rhythm as well as the importance of each in style"
+    description: "Using visualizations to show pitch, this article demonstrates the relationship between melody and rhythm as well as the importance of each in style"
     link: "https://www.ethanhein.com/wp/2016/visualizing-hip-hop-melodies/"
     tags:
       - "Musical Terms"
@@ -271,7 +271,7 @@ resources:
       - "Africa"
   - type: "url"
     title: "Pentatonic Scales"
-    author: "Imaginary: Open Mathmatics"
+    author: "Imaginary: Open Mathematics"
     date: 2020
     link: "https://imaginary.org/program/pentatonic-scales"
     description: "Move through the “Space of Pentatonic Scales” and create your own impressionistic style music by playing pieces by classical composers with only five notes."
@@ -280,7 +280,7 @@ resources:
      - "Interactive"
   - type: "url"
     title: "Scale Lab"
-    author: "Imaginary: Open Mathmatics"
+    author: "Imaginary: Open Mathematics"
     date: 2020
     link: "https://imaginary.org/program/scale-lab"
     description: "Scale Lab allows you to explore, measure, create and modify both individual sounds and musical scales. This exhibit covers the fundamentals of sound, perception of consonance and dissonance and the creation of scales from single tones."
@@ -289,7 +289,7 @@ resources:
      - "Interactive"
   - type: "url"
     title: "Pink Trombone"
-    author: "Imaginary: Open Mathmatics"
+    author: "Imaginary: Open Mathematics"
     date: 2020
     link: "https://imaginary.org/program/pink-trombone"
     description: "Pink trombone is a model of the human vocal tract that synthesizes human voice from scratch, controllable with your fingers."
@@ -301,7 +301,7 @@ resources:
     author: "Google Doodle"
     date: 2016
     link: "https://www.google.com/doodles/clara-rockmores-105th-birthday"
-    description: "An interactive theramin celebrating Clara Rockmore, \"the instrument's most well-known performer\"."
+    description: "An interactive theremin celebrating Clara Rockmore, \"the instrument's most well-known performer\"."
     tags:
      - "Musical Instruments"
      - "Interactive"
@@ -330,7 +330,7 @@ resources:
     author: "Abelton"
     date: 2017
     link: "https://learningmusic.ableton.com"
-    description: "An in-browswer interactive series of lessons on rhythm, pitch, and similar concepts that includes a playground. Built by the makers of Abelton Live."
+    description: "An in-browser interactive series of lessons on rhythm, pitch, and similar concepts that includes a playground. Built by the makers of Abelton Live."
     tags:
      - "Musical Instruments"
      - "Musical Terms"
