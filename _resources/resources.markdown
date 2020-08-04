@@ -1,7 +1,7 @@
 ---
 topic: "Teaching resources"
 topic-no-space: "teaching-resources"
-description: "The virtual fielddwork listing is largely compiled from an email thread on the topic to the Society for Ethnomusicology email list (SEM-L) in the spring of 2020. Thank you to those who suggested resources there and to those who have added to this collection since then. If you would like to add to or edit any of these suggestions, please contact the editors."
+description: "The virtual field work listing is largely compiled from an email thread on the topic to the Society for Ethnomusicology email list (SEM-L) in the spring of 2020. Thank you to those who suggested resources there and to those who have added to this collection since then. If you would like to add to or edit any of these suggestions, please contact the editors."
 resources:
   - type: "chapter"
     title: "Virtual Fieldwork: Three Case Studies"
