@@ -43,14 +43,29 @@
 }
 
 header .btn {
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(150, 150, 150, 0.7);
   border-color: rgba(255, 255, 255, 0.2);
 
   &:hover {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(150, 150, 150, 0.4);
     border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.turtle {
+  background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
+  background-size: cover;
+  text-align: right;
+  @include small {
+    text-align: center;
+  }
+  @include medium {
+    background-position: center;
+  }
+  @include large {
+    background-position: center;
   }
 }
 
