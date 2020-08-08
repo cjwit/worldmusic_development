@@ -58,14 +58,21 @@ header .btn {
   background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
   background-size: cover;
   text-align: right;
-  @include small {
-    text-align: center;
-  }
   @include medium {
     background-position: center;
   }
   @include large {
     background-position: center;
+  }
+  @include small {
+    text-align: center;
+  }
+}
+
+.turtle .btn {
+  @include small {
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
