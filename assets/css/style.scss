@@ -43,36 +43,42 @@
 }
 
 header .btn {
-  color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(150, 150, 150, 0.7);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(150, 150, 150, 0);
+  border-color: rgba(255, 255, 255, 1);
 
   &:hover {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 1);
     background-color: rgba(150, 150, 150, 0.4);
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 1);
   }
 }
 
 .turtle {
-  background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
-  background-size: cover;
-  text-align: right;
   @include medium {
+    background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
     background-position: center;
+    background-size: cover;
+    text-align: right;
   }
   @include large {
+    background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
     background-position: center;
+    background-size: cover;
+    text-align: right;
   }
   @include small {
+    background: url(../images/morning-brew-blue-and-green-earth-globe-edited-small.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
   }
 }
 
 .turtle .btn {
   @include small {
-    width: 50%;
-    margin-left: 25%;
+    width: 60%;
+    margin-left: 20%;
   }
 }
 
