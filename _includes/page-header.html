@@ -1,13 +1,16 @@
 <header class="page-header turtle" role="banner">
+
   <h1 class="project-name">{{ page.title | site.title | site.github.repository_name }}</h1>
   <h2 class="project-tagline">
       {{ page.author | default: page.description | site.description | site.github.project_tagline }}
   </h2>
 
-  {% for button in page.nav %} {% if button == "home" %}
-  <a href="{{ site.baseurl }}/" class="btn">Home</a> {% endif %} {% if button == "call" %}
-  <a href="{{ site.baseurl }}/call" class="btn">Call for Contributions</a> {% endif %}
-  {% if button == "resources" %}
-  <a href="{{ site.baseurl }}/resources" class="btn">Other Resources</a> {% endif %} {% endfor %}
+  {% for button in page.nav %} 
+    {% if button == "home" %}<a href="{{ site.baseurl }}/" class="btn">Home</a> {% endif %} 
+    {% if button == "chapters" %}<a href="{{ site.baseurl }}/chapters" class="btn">Chapters</a> {% endif %} 
+    {% if button == "resources" %}<a href="{{ site.baseurl }}/resources" class="btn">Other Resources</a> {% endif %} 
+    {% if button == "call" %}<a href="{{ site.baseurl }}/call" class="btn">Call for Contributions</a> {% endif %}
+    {% if button == "about" %}<a href="{{ site.baseurl }}/about" class="btn">About the project</a> {% endif %} 
+  {% endfor %}
 
 </header>
