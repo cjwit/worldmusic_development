@@ -3,7 +3,6 @@ layout: default
 title: Call for Contributions
 description: Contribute to an open and accessible resource
 ---
-
 You are invited to contribute to a new open world music textbook. While the *World Music Textbook* aims to assemble a collection of original writing and multimedia resources for use in musicology and ethnomusicology classrooms, we also intend for this project to serve the wider public.
 
 ## Scope and style
