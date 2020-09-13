@@ -75,28 +75,5 @@ The current *World Music Textbook* editorial board:
 !["Afaia (maracatu drums)"](assets/images/paulo-infante-afaia-unsplash.jpg)
 <small>*"Afaia (maracatu drums)" by Paulo Infante on [Unsplash](https://unsplash.com/@pauloinfante)*</small>
 
-## What should your ideal world music textbook do?
-
-With our aim to provide a collaborative and open free resource for instructors and students alike, we invite you to share any ideas about what you wish you had available for your students.
-
-<form
-  action = "https://formspree.io/{{ site.email }}"
-  method="POST">
-
-  <textarea name="suggestions" rows="4" placeholder = "I have some thoughts"></textarea>
-
-  <p>
-    If you would like to be involved, please contact the editors. For updates, join our mailing list by entering your email below. We will not sell or share your responses without your permission.
-  </p>
-
-  <center>
-    <input type="text" name="name" placeholder="Your name (optional)" size = "50">
-    <input type="text" name="email" placeholder="Your email (optional)" size = "50">
-    <br />
-
-    <input type = "submit" class="btn" value = "Send">
-  </center>
-</form>
-
 !["Party fans raised their hands](assets/images/anthony-delanoix-concert-upsplash.jpg)
 <small>*"party fans raised their hands" by Anthony Delanoix on [Upstream](https://unsplash.com/@anthonydelanoix)*</small>
