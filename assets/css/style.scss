@@ -54,6 +54,18 @@ header .btn {
   }
 }
 
+footer .btn {
+  color: $section-headings-color;
+  background-color: white;
+  border-color: $section-headings-color;
+
+  &:hover {
+    color: $section-headings-color;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: $section-headings-color;
+  }
+}
+
 .turtle {
   @include medium {
     background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
