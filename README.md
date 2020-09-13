@@ -8,6 +8,7 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 
 ## Next up
 
-* Footer CSS not working after upload
 * Add links and detail to footer
 * Work on home page layout and about page
+* Add page listing "chapters"
+* Update header to automatically configure navigation buttons
