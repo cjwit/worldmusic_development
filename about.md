@@ -2,10 +2,6 @@
 layout: default
 title: "About World Music Textbook"
 description: "Inclusive, flexible, and open"
-nav:
- - "home"
- - "call"
- - "resources"
 ---
 This project’s vision is the creation of an adaptable free textbook. Its short-form content will come from researchers and practitioners who address musical practices and broad themes that draw from their own experience. Filtered listings, tags, curated collections, and sample educational materials will highlight a range of methods for teaching and understanding the role of music within society, social histories, and divergent approaches to scholarship and knowledge.
 
