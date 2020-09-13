@@ -351,20 +351,28 @@ a {
 }
 
 .site-footer {
+  background-color: $code-bg-color;
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px $hr-border-color;
+  font-size: 0.9rem;
 
   @include large {
-    font-size: 1rem;
+    // max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
   }
 
   @include medium {
-    font-size: 1rem;
+    padding: 2rem 4rem;
   }
 
   @include small {
-    font-size: 0.9rem;
+    padding: 2rem 1rem;
+  }
+
+  h3 {
+    text-transform: uppercase;
   }
 }
 
