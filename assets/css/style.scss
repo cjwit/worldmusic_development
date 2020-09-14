@@ -1,7 +1,14 @@
 ---
 ---
-
-@import "theme.scss";
+@import "normalize";
+@import "rouge-github";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import "site-variables.scss";
+@import "page-setup.scss";
+@import "button.scss";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
 
 .btn {
   display: inline-block;
