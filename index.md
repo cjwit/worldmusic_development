@@ -31,6 +31,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 <center>
-  <a href="{{ site.baseurl }}/chapters/" class="btn">See more chapters</a>
+  <a href="{{ site.baseurl }}/chapters" class="btn">See more chapters</a>
 </center>
 </p>
