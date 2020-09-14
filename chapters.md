@@ -18,7 +18,7 @@ Words about the chapters... Lorem ipsum dolor sit amet, consectetur adipiscing e
 
 <div id = "itemList">
     {% assign chapters = site.pages | where: "layout", "chapter" | sort:'date' | reverse %}
-    {% for chapter in chapters | where:"dir","chapters" %}
+    {% for chapter in chapters %}
       <div class = "item">
         {% include chapter.html chapter=chapter %}
       </div>

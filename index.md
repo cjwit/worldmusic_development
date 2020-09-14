@@ -13,13 +13,24 @@ The *World Music Textbook* is a new collaborative effort to create a free and br
 
 About recent articles, news, and so on.
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 !["Musician busking"](assets/images/william-recinos-nola-violin-unsplash.jpg)
 <small>*"Musician busking" by William Recinos on [Unsplash](https://unsplash.com/@iwillbmm)*</small>
 
 ## Recently published "chapters"
 
-Automatically populated listing of the most recent chapters, along with descriptions and tags
+<div id = "itemList">
+    {% assign chapters = site.pages | where: "layout", "chapter" | sort:'date' | reverse %}
+    {% for chapter in chapters limit:3 %}
+      <div class = "item">
+        {% include chapter.html chapter=chapter %}
+      </div>
+    {% endfor %}
+</div>
 
+<p>
 <center>
   <a href="chapters/" class="btn">See more chapters</a>
 </center>
+</p>

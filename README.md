@@ -13,3 +13,4 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 * Index page lists recent publications
 * Abstract for Kristina's essay
 * Remove upper border on item list (both for resources and chapters)
+* Add news to home page

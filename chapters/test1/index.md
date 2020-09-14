@@ -1,7 +1,7 @@
 ---
 layout: chapter
 author: Test Author One
-title: "Sep 13 Test chapter one: it's worth a try"
+title: "Test chapter one: it's worth a try"
 affiliation: Big State University
 job-title: Assistant Professor of Musicology
 bio: Test Author One is an important person who does important things at Big State University. She likes stuff and to do things. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
