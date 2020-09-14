@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 !["Musician busking"](assets/images/william-recinos-nola-violin-unsplash.jpg)
 <small>*"Musician busking" by William Recinos on [Unsplash](https://unsplash.com/@iwillbmm)*</small>
 
-## Recently published "chapters"
+## Recently published chapters
 
 <div id = "itemList">
     {% assign chapters = site.pages | where: "layout", "chapter" | sort:'date' | reverse %}
@@ -31,6 +31,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 <center>
-  <a href="chapters/" class="btn">See more chapters</a>
+  <a href="{{ site.baseurl }}/chapters/" class="btn">See more chapters</a>
 </center>
 </p>
