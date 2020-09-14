@@ -1,7 +1,8 @@
 ---
 layout: chapter
 author: Test Author Two
-title: "Test chapter two: it's worth a try"
+title: "Test chapter two"
+subtitle: "Cause everyone has one"
 affiliation: Small Liberal Arts College
 job-title: Assistant Professor of Musicology
 bio: Test Author Two is an important person who does important things at Small Liberal Arts College. She likes stuff and to do things. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

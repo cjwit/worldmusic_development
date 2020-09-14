@@ -3,13 +3,13 @@
 {% include site-header.html %}
 
 <body>
-
+  
   {% include page-header.html %}
 
   <main id="content" class="main-content" role="main">
 
-    <h1 class="page-author">{{ page.title }}</h1>
-    <h2 class="page-author">{{ page.author }}
+    <h2 class="page-author">{{ page.title }}{% if page.subtitle %}: {{ page.subtitle}}{% endif %}</h2>
+    <h3 class="page-author">{{ page.author }}
       <small class="author-info">
         {% if page.job-title %}
         {{ page.job-title }}
@@ -31,7 +31,7 @@
         {{ page.date | date: '%B %d, %Y' }}
         {% endif %}
       </small>
-    </h2>
+    </h3>
     <blockquote class="bio">
       {% if page.bio %}
       {{ page.bio }}

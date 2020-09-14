@@ -1,7 +1,8 @@
 ---
 layout: chapter
 author: Josie Test-Author
-title: "Test chapter three: another one"
+title: "Test chapter three"
+subtitle: "Another thing with a colon to make it sound smart"
 affiliation: University College
 job-title: Assistant Professor of Musicology
 bio: Josie Test-Author is an important person who does important things at University College. She likes stuff and to do things. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
