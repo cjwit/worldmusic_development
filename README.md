@@ -8,4 +8,6 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 
 ## Next up
 
-* Add links and detail to footer
+* Sort tags by type
+* Chapter page lists publications
+* Index page lists recent publications
