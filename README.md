@@ -15,3 +15,4 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 * Add news to home page
 * Add image thumbnails to `chapter.html` and chapters
 * Balance columns in footer
+* Nav buttons on mobile need to get out of the way somehow
