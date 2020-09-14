@@ -10,7 +10,7 @@ Words about the chapters, link to the call
 <!-- <div id = "tagList"></div> -->
 
 <div id = "itemList">
-    {% assign chapters = site.pages | where: "layout", "essay" %}
+    {% assign chapters = site.pages | where: "layout", "chapter" %}
     {% for chapter in chapters | where:"dir","chapters" %}
       {{ chapter.title }} {{ chapter.layout }}<br>
     {% endfor %}

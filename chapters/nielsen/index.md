@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: chapter
 author: Kristina Nielsen
 title: Music and Identity in Danza Azteca
 affiliation: Southern Methodist University
