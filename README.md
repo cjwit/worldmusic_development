@@ -9,6 +9,7 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 ## Next up
 
 * Sort tags by type
+* Tags and See more chapters button on index look too similar
 * Chapter page lists publications
 * Index page lists recent publications
 * Abstract for Kristina's essay
