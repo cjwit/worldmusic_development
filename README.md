@@ -6,14 +6,19 @@ This page houses the **development version** of the code for the [World Music Te
 
 Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editors@worldmusictextbook.org) if you are interested in contributing.
 
-## Next up
+## Next up 
+
+### For code
 
 * Sort tags by type
 * Tags and See more chapters button on index look too similar
-* Abstract for Kristina's essay
 * Remove upper border on item list (both for resources and chapters)
-* Add news to home page
 * Add image thumbnails to `chapter.html` and chapters
 * Balance columns in footer
 * Nav buttons on mobile need to get out of the way somehow
 * Route Kristina’s essay, the call, and the resources to be sure that we don’t break any bookmarks with the update
+
+### For content
+
+* Abstract for Kristina's essay
+* Add news to home page
