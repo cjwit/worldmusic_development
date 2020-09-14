@@ -1,0 +1,12 @@
+<p class="hang">{{ chapter.author }}, <a href="{{ site.baseurl }}{{ chapter.url }}">"{{ chapter.title }},"</a> ({{ chapter.date }})</p>
+
+{% if chapter.description %}
+    <p class="description">{{ chapter.description }}</p>
+{% endif %}
+
+{% if chapter.tags %}
+    {% assign sorted-tags = (chapter.tags | sort) %}
+    {% for tag in sorted-tags %}
+        <span class = 'tag btn'>{{ tag }}</span>
+    {% endfor %}
+{% endif %}

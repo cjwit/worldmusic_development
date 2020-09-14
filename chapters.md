@@ -7,12 +7,16 @@ Words about the chapters, link to the call
 
 ## Filter by Tag
 
-<!-- <div id = "tagList"></div> -->
+<div id = "tagList"></div>
+
+## Chapters
 
 <div id = "itemList">
-    {% assign chapters = site.pages | where: "layout", "chapter" %}
+    {% assign chapters = site.pages | where: "layout", "chapter" | sort:'date' | reverse %}
     {% for chapter in chapters | where:"dir","chapters" %}
-      {{ chapter.title }} {{ chapter.layout }}<br>
+      <div class = "item">
+        {% include chapter.html chapter=chapter %}
+      </div>
     {% endfor %}
 </div>
 
