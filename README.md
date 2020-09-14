@@ -10,9 +10,8 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 
 * Sort tags by type
 * Tags and See more chapters button on index look too similar
-* Chapter page lists publications
-* Index page lists recent publications
 * Abstract for Kristina's essay
 * Remove upper border on item list (both for resources and chapters)
 * Add news to home page
 * Add image thumbnails to `chapter.html` and chapters
+* Balance columns in footer
