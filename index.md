@@ -30,9 +30,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     {% endfor %}
 </div>
 
+<div class="top-border">
 <p>
 <center>
   <a href="{{ site.baseurl }}/chapters" class="btn">See all chapters</a>
   <a href="{{ site.baseurl }}/resources" class="btn">Other resources</a>
 </center>
 </p>
+</div>
