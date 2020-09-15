@@ -13,14 +13,9 @@ header {
 
 #overlay-button {
   position: absolute;
-  right: 2em;
-  top: 3em;
+  right: 1em;
+  top: 1em;
   padding: 26px 11px;
-
-  @include small {
-    top: 1em;
-    right: 1em;
-  }
 
   z-index: 5;
   cursor: pointer;
@@ -180,17 +175,9 @@ input[type=checkbox]:checked ~ #overlay-button {
     text-align: right;
   }
   @include small {
-    // padding-bottom: 150px;
     background: url(../images/morning-brew-blue-and-green-earth-globe-mobile-tall.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
-  }
-}
-
-.turtle .project-tagline {
-  @include small {
-    // opacity: 1;
-    // margin-bottom: 2rem;
   }
 }
