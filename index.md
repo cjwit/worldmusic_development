@@ -6,7 +6,8 @@ description: "An online and open resource for teaching and <br>learning ethnomus
 The *World Music Textbook* is a new collaborative effort to create a free and broadly accessible resource for the general public, educators, students, and researchers alike. Its open collections of scholarly, peer-reviewed writing and multimedia materials will focus on increasing access to underrepresented voices, writing styles, and audiences, all with undergraduate students and a broad readership in mind.
 
 <center>
-  <a href="{{ site.baseurl }}/about/" class="btn">Learn more about the project</a>
+  <a href="{{ site.baseurl }}/about" class="btn">Learn more about the project</a>
+  <a href="{{ site.baseurl }}/about" class="btn">Call for contributions</a>
 </center>
 
 ## News and updates
@@ -31,6 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <p>
 <center>
-  <a href="{{ site.baseurl }}/chapters" class="btn">See more chapters</a>
+  <a href="{{ site.baseurl }}/chapters" class="btn">See all chapters</a>
+  <a href="{{ site.baseurl }}/resources" class="btn">Other resources</a>
 </center>
 </p>
