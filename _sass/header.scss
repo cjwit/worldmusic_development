@@ -16,6 +16,12 @@ header {
   right: 2em;
   top: 3em;
   padding: 26px 11px;
+
+  @include small {
+    top: 1em;
+    right: 1em;
+  }
+
   z-index: 5;
   cursor: pointer;
   user-select: none;
@@ -75,7 +81,7 @@ input[type=checkbox]:checked ~ #overlay-button {
 #overlay {
   height: 100vh;
   width: 100vw;
-  background: #ec6451;
+  background: $code-text-color;
   z-index: 2;
   visibility: hidden;
   position: fixed;
@@ -117,11 +123,11 @@ input[type=checkbox]:checked ~ #overlay-button {
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 6rem 4rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
   }
 }
 
@@ -143,7 +149,7 @@ input[type=checkbox]:checked ~ #overlay-button {
 }
 
 .project-tagline {
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7;
 
@@ -157,5 +163,34 @@ input[type=checkbox]:checked ~ #overlay-button {
 
   @include small {
     font-size: 1rem;
+  }
+}
+
+.turtle {
+  @include medium {
+    background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+  }
+  @include large {
+    background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: right;
+  }
+  @include small {
+    // padding-bottom: 150px;
+    background: url(../images/morning-brew-blue-and-green-earth-globe-mobile-tall.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+}
+
+.turtle .project-tagline {
+  @include small {
+    // opacity: 1;
+    // margin-bottom: 2rem;
   }
 }

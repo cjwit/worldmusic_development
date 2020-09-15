@@ -73,28 +73,6 @@ footer .btn {
   }
 }
 
-.turtle {
-  @include medium {
-    background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: right;
-  }
-  @include large {
-    background: url(../images/morning-brew-blue-and-green-earth-globe-edited.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: right;
-  }
-  @include small {
-    padding-bottom: 150px;
-    background: url(../images/morning-brew-blue-and-green-earth-globe-mobile-tall.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-  }
-}
-
 .turtle .btn {
   @include small {
     width: 80%;
@@ -111,13 +89,6 @@ footer .btn {
     color: rgba(255, 255, 255, 1);
     background-color: rgba(255, 255, 255, 0.4);
     border-color: rgba(255, 255, 255, 1);
-  }
-}
-
-.turtle .project-tagline {
-  @include small {
-    // opacity: 1;
-    margin-bottom: 2rem;
   }
 }
 
