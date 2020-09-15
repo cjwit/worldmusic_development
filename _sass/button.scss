@@ -42,3 +42,57 @@
   }
 }
 
+header .btn {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(150, 150, 150, 0);
+  border-color: rgba(255, 255, 255, 1);
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(150, 150, 150, 0.4);
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+footer .btn {
+  color: $section-headings-color;
+  background-color: white;
+  border-color: $section-headings-color;
+
+  &:hover {
+    color: $section-headings-color;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: $section-headings-color;
+  }
+}
+
+.turtle .btn {
+  @include small {
+    width: 80%;
+    margin-bottom: 0;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    // margin-left: 20%;
+  }
+
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+main .btn {
+  color: $section-headings-color;
+  background-color: white;
+  border-color: $section-headings-color;
+
+  &:hover {
+    color: $section-headings-color;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: $section-headings-color;
+  }
+}
