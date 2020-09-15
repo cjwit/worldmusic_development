@@ -11,11 +11,9 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 ### For code
 
 * Sort tags by type
-* Tags and See more chapters button on index look too similar
 * Remove upper border on item list (both for resources and chapters)
 * Add image thumbnails to `chapter.html` and chapters
-* Balance columns in footer
-* Nav buttons on mobile need to get out of the way somehow
+* Balance columns in footer (play with form size)
 * Route Kristina’s essay, the call, and the resources to be sure that we don’t break any bookmarks with the update
 
 ### For content
