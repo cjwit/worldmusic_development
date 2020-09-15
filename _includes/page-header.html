@@ -1,14 +1,18 @@
-<header class="page-header turtle" role="banner">
-
+<header role="banner">
+  <input type="checkbox" id="overlay-input" />
+  <label for="overlay-input" id="overlay-button"><span></span></label>
+  <div id="overlay">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+<div class="page-header turtle">
   <h1 class="project-name">{{ page.title | site.title | site.github.repository_name }}</h1>
   <h2 class="project-tagline">
-      {{ page.author | default: page.description | site.description | site.github.project_tagline }}
+    {{ page.author | default: page.description | site.description | site.github.project_tagline }}
   </h2>
-
-  {% if page.path != "index.md" %}<a href="{{ site.baseurl }}/" class="btn">Home</a> {% endif %} 
-  {% if page.path != "chapters.md" %}<a href="{{ site.baseurl }}/chapters" class="btn">Chapters</a> {% endif %} 
-  {% if page.path != "resources.md" %}<a href="{{ site.baseurl }}/resources" class="btn">Other Resources</a> {% endif %} 
-  {% if page.path != "call.md" %}<a href="{{ site.baseurl }}/call" class="btn">Call for Contributions</a> {% endif %}
-  {% if page.path != "about.md" %}<a href="{{ site.baseurl }}/about" class="btn">About the project</a> {% endif %} 
+</div>
 
 </header>
