@@ -38,14 +38,20 @@
       {% endif %}
     </blockquote>
 
-    {% if page.tags %}
-    {% assign tags = page.tags | sort %}
     <div id="tagList">
-      {% for tag in tags %}
-      <span class="btn tag">{{ tag }}</span>
-      {% endfor %}
+      {% if page.tags %}
+      {% assign tags = page.tags | sort %}
+        {% for tag in tags %}
+        <span class="btn tag">{{ tag }}</span>
+        {% endfor %}
+        {% endif %}
+      {% if page.geoTags %}
+      {% assign geoTags = page.geoTags | sort %}
+        {% for geoTag in geoTags %}
+        <span class="btn tag geoTag">{{ geoTag }}</span>
+        {% endfor %}
+        {% endif %}
     </div>
-    {% endif %}
 
     {{ content }}
 
