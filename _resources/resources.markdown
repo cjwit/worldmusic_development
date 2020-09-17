@@ -140,9 +140,10 @@ resources:
     link: "http://projects.aljazeera.com/2014/reservation-radio/index.html"
     description: "Article exploring the continuing significance of radio stations on reservations in the United States."
     tags: 
-      - "Native America"
       - "Indigeneity"
       - "Media"
+    geo-tags:
+      - "Native America"
   - type: "url"
     title: "Cumbia: The Musical Backbone of Latin America"
     author: "Jasmine Garsd"
@@ -150,8 +151,9 @@ resources:
     link: "https://www.npr.org/sections/altlatino/2013/09/30/227834004/cumbia-the-musical-backbone-of-latin-america"
     description: "Podcast about cumbia music that describes the history of cumbia and how it developed into a pan-Latin musical style."
     tags: 
-      - "Latin America"
       - "Popular Music"
+    geo-tags:
+      - "Latin America"
   - type: "url"
     title: "Afropop Worldwide (Podcasts)"
     author: "NPR and PRI"
