@@ -11,6 +11,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiu
 tags:
  - Dance
  - Identity
+geoTags:
  - Latin America
  - Mexico
 ---

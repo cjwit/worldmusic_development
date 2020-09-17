@@ -10,3 +10,9 @@
         <span class = 'tag btn'>{{ tag }}</span>
     {% endfor %}
 {% endif %}
+{% if chapter.geoTags %}
+    {% assign sorted-geoTags = (chapter.geoTags | sort) %}
+    {% for geoTag in sorted-geoTags %}
+        <span class = 'tag btn geoTag'>{{ geoTag }}</span>
+    {% endfor %}
+{% endif %}
