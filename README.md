@@ -19,3 +19,4 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 
 * Abstract for Kristina's essay
 * Add news to home page
+* Think about geoTags: do countries get their own? What about the USA? Mexico has one in the chapters
