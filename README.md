@@ -10,7 +10,6 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 
 ### For code
 
-* Sort tags by type
 * Remove upper border on item list (both for resources and chapters)
 * Add image thumbnails to `chapter.html` and chapters
 * Balance columns in footer (play with form size)
