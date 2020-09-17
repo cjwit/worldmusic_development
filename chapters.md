@@ -25,4 +25,12 @@ Words about the chapters... Lorem ipsum dolor sit amet, consectetur adipiscing e
     {% endfor %}
 </div>
 
+<div class="top-border">
+<p>
+<center>
+  <a href="{{ site.baseurl }}/resources" class="btn">Other resources</a>
+</center>
+</p>
+</div>
+
 {% include tag-script.html %}
