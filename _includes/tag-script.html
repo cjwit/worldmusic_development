@@ -4,10 +4,16 @@
   var tagElements = document.getElementsByClassName("tag");
   var tagList = document.getElementById("tagList");
   var tags = [];
+  var geoTags = [];
   
   for (i = 0; i < tagElements.length; i++) {
-      if (tags.indexOf(tagElements[i].innerText) < 0) {
-          tags.push(tagElements[i].innerText);
+      if (tags.indexOf(tagElements[i].innerText) < 0 && geoTags.indexOf(tagElements[i].innerText) < 0) {
+          if (tagElements[i].classList.contains("geoTag")) {
+            geoTags.push(tagElements[i].innerText);
+          }
+          else {
+            tags.push(tagElements[i].innerText);
+          }
       }
   }
   
@@ -20,6 +26,18 @@
       button.classList.add("tag");
       button.classList.add("filter");
       button.classList.add("btn");
+      tagList.appendChild(button);
+  }
+
+  geoTags.sort();
+  for (i = 0; i < geoTags.length; i++) {
+      var button = document.createElement("span");
+      var text = document.createTextNode(geoTags[i]);
+      button.appendChild(text);
+      button.classList.add("tag");
+      button.classList.add("filter");
+      button.classList.add("btn");
+      button.classList.add("geoTag");
       tagList.appendChild(button);
   }
   

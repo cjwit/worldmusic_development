@@ -4,9 +4,38 @@
   padding: 0.3rem;
 }
 
-.geo-tag {
-  color: $body-link-color !important;
-  border-color: $body-link-color !important;
+.tag.active {
+  color: white;
+  background-color: $section-headings-color;
+  border-color: $section-headings-color;
+}
+
+.tag.active:hover {
+  color: white;
+  background-color: $section-headings-color;
+  border-color: $border-color;
+}
+
+.tag.geoTag {
+  color: $body-link-color;
+  border-color: $body-link-color;
+  &:hover {
+    color: $body-link-color;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: $body-link-color;
+  }
+}
+
+.geoTag.active {
+  color: white;
+  background-color: $body-link-color;
+  border-color: $body-link-color;
+}
+
+.geoTag.active:hover {
+  color: white;
+  background-color: $body-link-color;
+  border-color: $border-color;
 }
 
 #tagList .tag, .item .tag {
@@ -35,18 +64,6 @@
 
 #itemList div:first-child {
   border-top: 0px;
-}
-
-#tagList .active {
-  color: white;
-  background-color: $section-headings-color;
-  border-color: $section-headings-color;
-}
-
-#tagList .active:hover {
-  color: white;
-  background-color: $section-headings-color;
-  border-color: $border-color;
 }
 
 // for item formatting
