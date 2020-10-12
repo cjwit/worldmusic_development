@@ -6,10 +6,11 @@ This page houses the **development version** of the code for the [World Music Te
 
 Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editors@worldmusictextbook.org) if you are interested in contributing.
 
-## Next up 
+## Next up
 
 ### For code
 
+* Add home page or clickable spot in header
 * Remove upper border on item list (both for resources and chapters)
 * Add image thumbnails to `chapter.html` and chapters
 * Balance columns in footer (play with form size)
@@ -20,3 +21,5 @@ Feel free to email the editors at [editors@worldmusictextbook.org](mailto:editor
 * Abstract for Kristina's essay
 * Add news to home page
 * Think about geoTags: do countries get their own? What about the USA? Mexico has one in the chapters
+* Set up custom pages
+  * Markdown files in a `custom` folder that use chapter.html and item.html to include specific resources, with headers
