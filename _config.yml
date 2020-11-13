@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-repository: worldmusic_development
+repository: cjwit/worldmusic_development
 title: World Music Textbook
 author: Maintained by Christopher Witulski
 email: editors@worldmusictextbook.org
